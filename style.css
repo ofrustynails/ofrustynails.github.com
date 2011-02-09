@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* >> The Magnificent CLEARFIX << */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; *zoom:1;}
+* html .clearfix { height: 1%; } /* Hides from IE-mac \*/
+.clearfix { display: block; }
+
+
+/* -------------------------------------- Reset -------------------------------------  */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, footer, header, 
+hgroup, menu, nav, section, menu,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}                  
+
+body{
+	background: black url(img/bgr.jpg) no-repeat center 56%;
+	margin: 0px;
+	padding:  0px;
+}
+
+#title{
+	display: none;
+	width: 360px;
+	height: 146px;
+	background: url(img/t.png) no-repeat;
+	margin-left:  auto;
+	margin-right: auto;
+	position: relative;
+	left: 12px;
+}
+
+.subscribe{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px;
+	background-color: #0a0a0a;
+	position: relative;
+	top: 539px;
+}
+
+span {
+	display: none;
+}
+
+#sub_text{
+	display: block;
+	color: #ffffff;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	position: relative;
+	top: 39%;
+	margin-left: 50px;
+}
+
+#tagline {
+	width: 297px;
+	height: 120px;
+	background: url(img/tagline.png) no-repeat;
+	position: relative;
+	top: 560px;
+	margin-left: auto;
+	margin-right:  auto;
+}
+
+#sub_button {
+	width: 125px;
+	height: 49px;
+	background: url(img/btn.png) no-repeat;
+	position: relative;
+	bottom: .1em;
+	margin-right: 25px;
+	float: right;
+}
+
+input{
+	width: 47%;
+	position: relative;
+	right: -35%;
+	top: 1em;
+}
